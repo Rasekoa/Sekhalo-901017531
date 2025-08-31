@@ -1,0 +1,53 @@
+.root{
+-fx-background-color:#f4f4f4;
+-fx-font-family:Arial;
+}
+.flow-pane{
+-fx-min-width:400px
+-fx-min-height:300400px
+-fx-background-color:white;
+-fx-padding:20;
+
+}
+.image-view{
+-fx-cursor:hand;
+-fx-background-radius:10;
+-fx-background-color:white;
+-fx-padding:5;
+-fx-border-radius:10;
+-fx-border-color:transparent;
+-fx-border-width:2;
+-fx-transition:all 0.3s ease;
+}
+.button{
+-fx-background-color:#333;
+-fx-text-fill:white;
+-fx-font-weight:bold;
+-fx-background-radius:20;
+-fx-padding:8 20 8 20;
+-fx-cursor:hand;
+-fx-transition:background-color 0.3s ease;
+}
+.button:hover{
+-fx-background:#555;
+}
+.hbox{
+-fx-padding:15;
+-fx-background-color:white;
+-fx-background-radius:15;
+}
+.text-field{
+-fx-font-size:14px
+-fx-padding:8 12 8 12;
+-fx-background-radius:20;
+-fx-border-radius:20;
+-fx-border-color:#4a90e2;
+-fx-border-width:2;
+-fx-focus-color:#357ABD;
+-fx-faint-focus-color:transparent;
+}
+.photo-label{
+-fx-font-size:13px;
+-fx-text-full:#333;
+-fx-font-weight:600;
+}
